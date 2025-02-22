@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libopeniscsiusr.so.0.2.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libopeniscsiusr
+/usr/share/doc/libopeniscsiusr/NEWS.Debian.gz
+/usr/share/doc/libopeniscsiusr/changelog.Debian.gz
+/usr/share/doc/libopeniscsiusr/copyright
+/usr/share/doc/libopeniscsiusr/doc-preclean.pl
+/usr/share/doc/libopeniscsiusr/kernel-doc.gz
+/usr/share/doc/libopeniscsiusr/libopeniscsiusr.h.3
+/usr/share/doc/libopeniscsiusr/split-man.pl
+/usr/lib/x86_64-linux-gnu/libopeniscsiusr.so.0

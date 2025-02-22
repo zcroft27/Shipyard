@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sos
+Version: 4.7.2
+Summary: A set of tools to gather troubleshooting information from a system
+Home-page: https://github.com/sosreport/sos
+Author: Bryn M. Reeves
+Author-email: bmr@redhat.com
+Maintainer: Jake Hunsaker
+Maintainer-email: jhunsake@redhat.com
+License: GPLv2+
+Platform: UNKNOWN
+License-File: LICENSE
+License-File: AUTHORS
+
+UNKNOWN
+

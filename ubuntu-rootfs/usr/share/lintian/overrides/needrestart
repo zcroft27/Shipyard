@@ -1,0 +1,8 @@
+needrestart: maintainer-script-should-not-use-dpkg-maintscript-helper postinst:5
+needrestart: maintainer-script-should-not-use-dpkg-maintscript-helper postrm:5
+needrestart: maintainer-script-should-not-use-dpkg-maintscript-helper preinst:5
+needrestart: manual-page-for-system-command usr/sbin/needrestart
+needrestart: executable-in-usr-lib usr/lib/needrestart/apt-pinvoke
+needrestart: executable-in-usr-lib usr/lib/needrestart/dpkg-status
+needrestart: executable-in-usr-lib usr/lib/needrestart/iucode-scan-versions
+needrestart: executable-in-usr-lib usr/lib/needrestart/vmlinuz-get-version

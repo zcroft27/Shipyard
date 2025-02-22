@@ -1,0 +1,5 @@
+b856edfe73d25df92c79c7d539b50fb5  usr/lib/initramfs-tools/bin/gcc_s1-stub
+a08535f8d98cd2cd2c190ae7dbffad14  usr/lib/initramfs-tools/bin/wait-for-root
+b7d6c3f7c2d3f6df54eda86e29937528  usr/share/doc/initramfs-tools-bin/NEWS.Debian.gz
+6a08d078715df82d735a01f1a193f1c2  usr/share/doc/initramfs-tools-bin/changelog.gz
+4fc01ee21c39633ec3547d25c2fd3a75  usr/share/doc/initramfs-tools-bin/copyright

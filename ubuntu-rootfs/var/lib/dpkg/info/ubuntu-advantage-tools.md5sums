@@ -1,0 +1,4 @@
+50b687ce0d86483b44ad54c0a9d22d80  usr/lib/ubuntu-advantage/migrate_user_config.py
+f9386cbabc69d0ee77caea6cb4f1eb7c  usr/lib/ubuntu-advantage/patch_status_json.py
+88fbbac6235fa4fbda63e84104fccaea  usr/share/doc/ubuntu-advantage-tools/copyright
+be37fd8334b9b962404f6a11e7b96f18  usr/share/lintian/overrides/ubuntu-advantage-tools

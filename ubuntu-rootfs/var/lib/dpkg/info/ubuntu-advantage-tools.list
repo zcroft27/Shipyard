@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/ubuntu-advantage
+/usr/lib/ubuntu-advantage/migrate_user_config.py
+/usr/lib/ubuntu-advantage/patch_status_json.py
+/usr/share
+/usr/share/doc
+/usr/share/doc/ubuntu-advantage-tools
+/usr/share/doc/ubuntu-advantage-tools/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/ubuntu-advantage-tools
+/usr/share/doc/ubuntu-advantage-tools/changelog.gz

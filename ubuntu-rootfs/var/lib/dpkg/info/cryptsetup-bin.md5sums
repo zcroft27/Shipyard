@@ -1,0 +1,14 @@
+1bae72a44d9c2759ef87a93ad9c3b6d5  sbin/cryptsetup
+d7bf3fb21d8856bc80a8be79cadbd108  sbin/cryptsetup-reencrypt
+6ede5ccb6e00bffb8e31828860dfba48  sbin/cryptsetup-ssh
+f018ee8a0881309c64a7f0269940bc9e  sbin/integritysetup
+5d3211420ef9d0583d2c3a6a53c97e61  sbin/veritysetup
+f1fadc0410827643b1a7e78272661353  usr/lib/tmpfiles.d/cryptsetup.conf
+4b52326d7c68659dbfa12e39080feaf1  usr/share/bug/cryptsetup-bin
+56550cb787157aa4e1cdd13bd7d6228b  usr/share/doc/cryptsetup-bin/NEWS.Debian.gz
+8a6730f971c46efd70301b9849544e0e  usr/share/doc/cryptsetup-bin/copyright
+d58ea1529c90466bbd8200c9bf4ecbe8  usr/share/man/man8/cryptsetup-reencrypt.8.gz
+1460cc471ffce1c01ad80149398b80c3  usr/share/man/man8/cryptsetup-ssh.8.gz
+dc273de01c0a10f3ef49ba3cfb05d6d3  usr/share/man/man8/cryptsetup.8.gz
+b116165c99c46006e2a3b44474c8b506  usr/share/man/man8/integritysetup.8.gz
+298ec479b5472d0d24e22e4d6ec689db  usr/share/man/man8/veritysetup.8.gz

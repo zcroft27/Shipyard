@@ -1,0 +1,20 @@
+
+Start-Date: 2025-02-20  02:25:18
+Commandline: apt-get -y autoremove --purge fwupd modemmanager udisks2
+Purge: modemmanager:amd64 (1.20.0-1~ubuntu22.04.4), udisks2:amd64 (2.9.4-1ubuntu2), fwupd:amd64 (1.7.9-1~22.04.3)
+End-Date: 2025-02-20  02:25:19
+
+Start-Date: 2025-02-20  02:32:20
+Commandline: apt-get --purge remove --assume-yes ^linux-.* linux-base+
+Purge: linux-virtual:amd64 (5.15.0.133.132), linux-headers-5.15.0-133-generic:amd64 (5.15.0-133.144), linux-headers-generic:amd64 (5.15.0.133.132), linux-headers-5.15.0-133:amd64 (5.15.0-133.144), linux-image-virtual:amd64 (5.15.0.133.132), linux-image-5.15.0-133-generic:amd64 (5.15.0-133.144), linux-headers-virtual:amd64 (5.15.0.133.132), linux-modules-5.15.0-133-generic:amd64 (5.15.0-133.144)
+End-Date: 2025-02-20  02:32:22
+
+Start-Date: 2025-02-20  02:32:25
+Commandline: apt-get --purge remove --assume-yes ^grub-.*
+Purge: grub-pc-bin:amd64 (2.06-2ubuntu7.2), os-prober:amd64 (1.79ubuntu2), grub-gfxpayload-lists:amd64 (0.7), grub2-common:amd64 (2.06-2ubuntu7.2), grub-common:amd64 (2.06-2ubuntu7.2), grub-pc:amd64 (2.06-2ubuntu7.2)
+End-Date: 2025-02-20  02:32:26
+
+Start-Date: 2025-02-20  02:32:28
+Commandline: apt-get autoremove --purge --assume-yes
+Purge: libfreetype6:amd64 (2.11.1+dfsg-1ubuntu0.2)
+End-Date: 2025-02-20  02:32:28

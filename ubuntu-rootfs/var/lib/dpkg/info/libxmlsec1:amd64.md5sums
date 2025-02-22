@@ -1,0 +1,6 @@
+585638ba5751070324bea12c8224bff2  usr/lib/x86_64-linux-gnu/libxmlsec1.so.1.2.33
+b2cd58e48e4b34624e96d9180125ce39  usr/share/doc/libxmlsec1/README
+83c1f9b891effbe3edd0fcc2112fa3d8  usr/share/doc/libxmlsec1/README.Debian
+7b8a7e3ac5195f974aba5402c0070cbd  usr/share/doc/libxmlsec1/changelog.Debian.gz
+c4a8c979a02ea52c581475dd6015e7e0  usr/share/doc/libxmlsec1/copyright
+dbb065349d47c2f2522d7a38112fc6f9  usr/share/lintian/overrides/libxmlsec1
