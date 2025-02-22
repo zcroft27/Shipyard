@@ -21,3 +21,12 @@ ls
 cd hi
 ls
 exit
+ls
+ps
+exit
+ps
+exit
+ps
+exit
+ps
+exit
