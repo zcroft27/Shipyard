@@ -1,9 +1,0 @@
-# The tag is about the manpage not being in Section 8. This is a deliberate
-# choice by upstream, as irqbalance supports SysV systems, which have no
-# Section 8. See:
-#
-# - https://github.com/Irqbalance/irqbalance/pull/110
-# - https://en.wikipedia.org/wiki/Man_page#Manual_sections
-
-manual-page-for-system-command usr/sbin/irqbalance
-manual-page-for-system-command usr/sbin/irqbalance-ui

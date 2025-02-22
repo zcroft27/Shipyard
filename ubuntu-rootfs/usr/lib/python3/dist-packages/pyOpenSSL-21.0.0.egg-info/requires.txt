@@ -1,9 +1,0 @@
-
-[docs]
-sphinx
-sphinx_rtd_theme
-
-[test]
-flaky
-pretend
-pytest>=3.0.1

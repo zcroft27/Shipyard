@@ -1,3 +1,0 @@
-/etc/systemd/system/sysinit.target.wants/multipathd.service
-/etc/systemd/system/sockets.target.wants/multipathd.socket
-/etc/systemd/system/multipath-tools.service

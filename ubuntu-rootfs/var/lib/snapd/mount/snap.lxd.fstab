@@ -1,1 +1,0 @@
-/var/lib/snapd/hostfs/boot /boot none bind,ro 0 0

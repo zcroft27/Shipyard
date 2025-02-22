@@ -1,6 +1,0 @@
-#!/bin/sh
-set -e
-# Automatically added by dh_installdeb/13.6ubuntu1
-dpkg-maintscript-helper rm_conffile /etc/vmware-tools/guestproxy-ssl.conf 2:11.3.0-1\~ open-vm-tools -- "$@"
-dpkg-maintscript-helper rm_conffile /etc/vmware-tools/vm-support 2:11.3.0-1\~ open-vm-tools -- "$@"
-# End automatically added section

@@ -1,8 +1,0 @@
-# These are intentionally not executable
-ufw binary: script-not-executable usr/share/ufw/after.init
-ufw binary: script-not-executable usr/share/ufw/before.init
-# Don't complain about 'ufw allow' rules
-ufw binary: typo-in-manual-page usr/share/man/man8/ufw.8.gz "allow to" "allow one to"
-ufw binary: spelling-error-in-changelog "allow to" "allow one to"
-# Don't complain about the ufw-framework man page, it gives additional details
-ufw binary: spare-manual-page usr/share/man/man8/ufw-framework.8.gz
