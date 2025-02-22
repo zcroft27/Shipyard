@@ -48,10 +48,16 @@ func child() {
 	cmd.Stderr = os.Stderr
 
 	must(syscall.Sethostname([]byte("container")))
-	must(syscall.Chroot("/shippy"))
+	must(syscall.Chroot("/home/zcroft27/shipyard/Shipyard/rootfs"))
 	must(syscall.Chdir("/"))
 
 	must(cmd.Run())
+}
+
+func must(err error) {
+	if err != nil {
+		panic(err)
+	}
 }
 
 func cg() {
@@ -62,10 +68,4 @@ func cg() {
 	// Removes the new cgroup in place after the container exits
 	must(ioutil.WriteFile(filepath.Join(pids, "zcroft27/notify_on_release"), []byte("1"), 0700))
 	must(ioutil.WriteFile(filepath.Join(pids, "zcroft/cgroup.procs"), []byte(strconv.Itoa(os.Getpid())), 0700))
-}
-
-func must(err error) {
-	if err != nil {
-		panic(err)
-	}
 }
