@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"io/ioutil"
 	"os"
 	"os/exec"
 	"path/filepath"
@@ -92,11 +91,11 @@ func cg() {
 	}
 
 	// Set max process limit to 20.
-	must(ioutil.WriteFile(filepath.Join(cgroupPath, "pids.max"), []byte("20"), 0700))
+	must(os.WriteFile(filepath.Join(cgroupPath, "pids.max"), []byte("20"), 0700))
 
 	// Remove cgroup automatically after process exit.
-	must(ioutil.WriteFile(filepath.Join(cgroupPath, "notify_on_release"), []byte("1"), 0700))
+	must(os.WriteFile(filepath.Join(cgroupPath, "notify_on_release"), []byte("1"), 0700))
 
 	// Add current process to cgroup.
-	must(ioutil.WriteFile(filepath.Join(cgroupPath, "cgroup.procs"), []byte(strconv.Itoa(os.Getpid())), 0700))
+	must(os.WriteFile(filepath.Join(cgroupPath, "cgroup.procs"), []byte(strconv.Itoa(os.Getpid())), 0700))
 }

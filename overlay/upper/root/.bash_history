@@ -17,3 +17,7 @@ ls
 mkdir hi
 ls
 exit
+ls
+cd hi
+ls
+exit
