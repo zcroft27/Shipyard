@@ -13,3 +13,7 @@ mkdir helloworld
 ls
 exi
 exit
+ls
+mkdir hi
+ls
+exit
