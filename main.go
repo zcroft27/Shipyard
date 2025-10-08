@@ -87,7 +87,11 @@ func pull(imageTag string) {
 	manifest := getManifest(registry, imageName, tag, token)
 
 	// Create rootfs directory
-	rootfs := "/home/zcroft27/shipyard/Shipyard/pull"
+	path, err := os.Getwd()
+	if err != nil {
+		log.Println(err)
+	}
+	rootfs := path + "/custom-root-fs"
 	must(os.MkdirAll(rootfs, 0755))
 
 	// Download and extract each layer
@@ -102,7 +106,7 @@ func pull(imageTag string) {
 func getAuthToken(registry, imageName string) string {
 	
 	// Request authentication token from Docker Hub
-	authURL := fmt.Sprintf("https://auth.docker.io/token?service=%s&scope=repository:%s:pull", registry, imageName)
+	authURL := fmt.Sprintf("https://auth.docker.io/token?service=registry.docker.io&scope=repository:%s:pull", imageName)
 	
 	resp, err := http.Get(authURL)
 	must(err)
@@ -114,7 +118,7 @@ func getAuthToken(registry, imageName string) string {
 	if authResp.Token != "" {
 		return authResp.Token
 	}
-	return authResp.AccessToken
+	return authResp.Token
 }
 
 func getManifest(registry, imageName, tag, token string) ManifestV2 {
@@ -125,6 +129,10 @@ func getManifest(registry, imageName, tag, token string) ManifestV2 {
 	
 	req.Header.Set("Authorization", "Bearer "+token)
 	req.Header.Set("Accept", "application/vnd.docker.distribution.manifest.v2+json")
+
+	fmt.Printf("manifest url: %s\n", manifestURL)
+	// fmt.Println("Token: " + token)
+
 
 	client := &http.Client{}
 	resp, err := client.Do(req)
